@@ -1,0 +1,132 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-image: linear-gradient(to top, #156b66, #166f6c, #187372, #1a7778, #1c7b7e, #308487, #3f8e91, #4e979a, #69a8a9, #83bab9, #9dcbca, #b6dddb);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+html{
+    height: 100%;
+}
+
+#sports{
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#a{
+    padding-left: 25%;
+}
+#b{
+    padding-left: 25%;
+}
+.row{
+    width: 100%;
+}
+.card{
+border: solid white .3rem;
+}
+#football{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(football.jpg);
+    opacity: 0.65;
+    height: 10rem;
+    width: 24rem;
+}
+
+#cricket{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(crciket.JPG);
+    opacity: 0.60;
+    height: 10rem;
+    width: 24rem;
+}
+
+#basketball{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(basket.JPG);
+    opacity: 0.75;
+    height: 10rem;
+    width: 24rem;
+}
+
+#vollyball{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(vollyball.JPG);
+    opacity: 0.75;
+    height: 10rem;
+    width: 24rem;
+}
+
+#tt{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(tt.JPG);
+    opacity: 0.60;
+    height: 10rem;
+    width: 24rem;
+}
+
+
+#chess{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(chess1.JPG);
+    opacity: 0.70;
+    height: 10rem;
+    width: 24rem;
+}
+
+#Kabbadi{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(k3.JPG);
+    opacity: 0.65;
+    height: 10rem;
+    width: 24rem;
+}
+
+
+
+.card #football{
+    padding: 0%;
+    margin-bottom: 10%;
+    background-image: url(football.jpg);
+    height: 10rem;
+    width: 24rem;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    border: solid .2rem #86eced ;
+
+}
+
+.card:active{
+    transform: scale(1.1);
+    border: solid .2rem green ;
+
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#football{
+    
+}
